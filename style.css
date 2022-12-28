@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+html body {
+  font-family: sans-serif;
+}
+html body #main-navbar {
+  width: 90%;
+  border: 1px solid blue;
+  height: 10vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+html body #main-navbar #main-title {
+  font-size: 3rem;
+  width: 8%;
+}
+html body #main-navbar #search-input-container {
+  margin-left: 2rem;
+  width: 30%;
+  background-color: #f5f5f5;
+}
+html body #main-navbar #search-input-container #search-input {
+  background-color: inherit;
+  display: inline-block;
+  width: 92%;
+  padding: 1.3rem;
+  border: none;
+}
+html body #main-navbar #search-input-container #search-input::-moz-placeholder {
+  font-size: 1.8rem;
+}
+html body #main-navbar #search-input-container #search-input:-ms-input-placeholder {
+  font-size: 1.8rem;
+}
+html body #main-navbar #search-input-container #search-input::placeholder {
+  font-size: 1.8rem;
+}
+html body #main-navbar #search-input-container #search-icon {
+  font-size: 2.3rem;
+  color: #5da8cf;
+}
+html body #main-navbar #nav-menu {
+  margin-left: 13rem;
+  width: 53%;
+  position: relative;
+}
+html body #main-navbar #nav-menu #nav-menu-list {
+  padding: 1.3rem;
+  list-style-type: none;
+}
+html body #main-navbar #nav-menu #nav-menu-list .nav-menu-item {
+  margin-right: 2rem;
+  display: inline-block;
+}
+html body #main-navbar #nav-menu #nav-menu-list .nav-menu-item .active {
+  color: #5da8cf;
+}
+html body #main-navbar #nav-menu #nav-menu-list .nav-menu-item a {
+  color: #90878e;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+}
+html body #main-navbar #nav-menu #nav-menu-list .sign-up-button {
+  background-color: #eb282e;
+  padding: 1.3rem 4rem;
+  margin-right: 0;
+}
+html body #main-navbar #nav-menu #nav-menu-list .sign-up-button a {
+  color: white;
+}
+html body #main-navbar #nav-menu #dropdown-list-container {
+  position: absolute;
+  top: 8rem;
+  left: 1rem;
+  list-style-type: none;
+  width: 15vw;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+html body #main-navbar #nav-menu #dropdown-list-container li {
+  text-decoration: none;
+  color: #98979d;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+html body #main-navbar #nav-menu .hide {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

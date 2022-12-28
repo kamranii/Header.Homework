@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    body{
+        font-family: sans-serif;
+        #main-navbar{
+            width: 90%;
+            border: 1px solid blue;
+            height: 10vh;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            #main-title{
+                font-size: 3rem;
+                width: 8%;
+            }
+            #search-input-container{
+                margin-left: 2rem;
+                width: 30%;
+                background-color: #f5f5f5;
+                #search-input{
+                    background-color: inherit;
+                    display: inline-block;
+                    width: 92%;
+                    padding: 1.3rem;
+                    border: none;
+                    &::placeholder{
+                        font-size: 1.8rem;
+                    }
+                }
+                #search-icon{
+                    font-size: 2.3rem;
+                    color: #5da8cf;
+                }
+            }
+            #nav-menu{
+                margin-left: 13rem;
+                width: 53%;
+                position: relative;
+                #nav-menu-list{
+                    padding: 1.3rem;
+                    list-style-type: none;
+                    .nav-menu-item{
+                        margin-right: 2rem;
+                        display: inline-block;
+                        .active{
+                            color: #5da8cf;
+                        }
+                        a{
+                            color: #90878e;
+                            text-decoration: none;
+                            font-size: 2rem;
+                            font-weight: 600;
+                        }
+                    }
+                    .sign-up-button{
+                        background-color: #eb282e;
+                        padding: 1.3rem 4rem;
+                        margin-right: 0;
+                        a{
+                            color: white;
+                        }
+                    }
+                }
+                #dropdown-list-container{
+                    position: absolute;
+                    top: 8rem;
+                    left: 1rem;
+                    list-style-type: none;
+                    width: 15vw;
+                    padding: 1rem;
+                    border: 1px solid rgba(0, 0, 0, .2);
+                    li{
+                        text-decoration: none;
+                        color: #98979d;
+                        font-size: 1.5rem;
+                        padding: .5rem;
+                    }
+                }
+                .hide{
+                    display: none;
+                }
+            }
+        }
+    }
+}
